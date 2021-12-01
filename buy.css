@@ -1,0 +1,16 @@
+body {
+  padding-top: 3rem;/* відстань до верхньої границі блока */
+  padding-bottom: 3rem;/* відстань до нижгьої границі блока */
+  color: #5aaaaa;/* колір текста */
+}
+
+.container {/* Висота елемента */
+  max-width: 960px;
+}
+
+.pricing-header {/* Ширина елемента */
+  max-width: 700px;
+}
+.marketing h2 {/* насиченість шрифту */
+  font-weight: 400;
+}

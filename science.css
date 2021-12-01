@@ -1,0 +1,49 @@
+body {
+  padding-top: 3rem;/* відстань  до верхньої границі блока */
+  padding-bottom: 3rem;/* відстань  до нижгьої границі блока */
+  color: #5aaaaa;/* колір текста */
+}
+
+.carousel {
+  margin-bottom: 4rem;/* відстань між блоками */
+}
+
+.carousel-caption {
+  bottom: 3rem;/* відстань до нижгьої границі блока */
+  z-index: 10;/* розміщює елемент на першій план */
+}
+
+.carousel-item {
+  height: 32rem;/* висота елемента */
+}
+
+.carousel-item > img {
+  position: absolute;/* Елемент видаляється зі звичайного потоку документів, і для нього не створюється простір у макеті сторінки. */
+  top: 0; /* відстань до верхньої границі */
+  left: 0;/* відстань до лівої границі */
+  min-width: 100%;/* Ширина блока */
+  height: 32rem; /* Висота блока */
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;/* відстань між елементам */
+  text-align: center;/* текст розміщений поцентру */
+}
+.marketing h2 {
+  font-weight: 400;/* ширина шрифту */
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;/* Відстань з права від блока */
+  margin-left: .75rem;/* Відстань з ліва від блока*/
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* вказується положення по всім чотирьом сторонам */
+}
+
+.featurette-heading {
+  font-weight: 300;/* ширина шрифту */
+  line-height: 1;/* ширина між строками */
+  letter-spacing: -.05rem;/* відстань між буквами */
+}
